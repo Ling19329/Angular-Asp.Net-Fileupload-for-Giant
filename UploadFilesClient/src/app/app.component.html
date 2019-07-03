@@ -1,0 +1,58 @@
+<article class="container-fluid">
+  <div class="col-md-12">
+  <div class="row">
+    <div class="col-md-4">
+      <section class="create" >
+        <h1>{{title}}</h1>
+        <h5>File Type: JPEG, PNG, TXT</h5>
+        <h5>File Size < 5MB</h5>
+        <form>
+          <div class="form-group">
+            <label for="name">User Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" [(ngModel)]="name">
+          </div>
+          <!-- <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" name="address" placeholder="Enter your address" [(ngModel)]="address">
+          </div> -->
+          <app-upload (onUploadFinished)="uploadFinished($event)"></app-upload>
+          <div class="row">
+            <div class="col-md-2">
+              <button type="button" class="btn btn-primary" (click)="onCreate()">Upload</button>
+            </div>
+          </div>
+        </form>
+      </section></div>
+    <div class="col-md-8">
+        <section class="users" >
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">File</th>
+                  <th scope="col">File Name</th>
+                  <th scope="col">File Size</th>
+                  <th scope="col">User Name</th>
+                  <th scope="col">Uploaded Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let user of users">
+                  <td>
+                    <img *ngIf="checkFileType(user.imgPath) == true" [src]="createImgPath(user.imgPath)" alt="This is not Image File!" style="width:60px; height:60px;">
+                    <img *ngIf="checkFileType(user.imgPath) == false" [src]="createImgPath('Resources\\TextIcon\\txt_default.png')" alt="This is not Image File!" style="width:60px; height:60px;">
+                  </td>
+                  <td>{{getfilename(user.imgPath)}}</td>
+                  <td>{{user.imgSize}}Byte</td>
+                  <td>{{user.name}}</td>
+                  <td>{{user.up_time}}</td>
+                </tr>
+              </tbody>
+            </table>
+            
+          </section>
+    </div>
+  </div>
+</div>
+
+</article>
+

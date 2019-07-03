@@ -1,0 +1,12 @@
+.success{
+    color:#28a745;
+    
+    margin-left: 15px;
+    line-height: 36px;
+}
+.fail{
+    color:red;
+    
+    margin-left: 15px;
+    line-height: 36px;
+}

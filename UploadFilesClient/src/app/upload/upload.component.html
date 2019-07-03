@@ -1,0 +1,19 @@
+<div class="row" style="margin-bottom:15px;">
+  <div class="col-md-3">
+    <input type="file" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;">
+    <button type="button" class="btn btn-success" (click)="file.click()">Choose File</button>
+  </div>
+  <div class="col-md-6">
+    <span class="success" *ngIf="progress > 0">
+      {{progress}}%
+    </span>
+
+    
+      <div class="row" *ngFor = "let message_item of ms.messages">
+        <div [className]="message_item.status? 'success' : 'fail'">
+          {{message_item.message_str}}
+        </div>
+      </div>
+    
+  </div>
+</div>

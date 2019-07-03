@@ -1,0 +1,17 @@
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\UploadFilesServer.Tests.deps.json
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\UploadFilesServer.Tests.runtimeconfig.json
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\UploadFilesServer.Tests.runtimeconfig.dev.json
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\UploadFilesServer.Tests.dll
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\UploadFilesServer.Tests.pdb
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\UploadFilesServer.dll
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\bin\Debug\netcoreapp2.1\UploadFilesServer.pdb
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\obj\Debug\netcoreapp2.1\UploadFilesServer.Tests.csprojAssemblyReference.cache
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\obj\Debug\netcoreapp2.1\UploadFilesServer.Tests.csproj.CoreCompileInputs.cache
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\obj\Debug\netcoreapp2.1\UploadFilesServer.Tests.AssemblyInfoInputs.cache
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\obj\Debug\netcoreapp2.1\UploadFilesServer.Tests.AssemblyInfo.cs
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\obj\Debug\netcoreapp2.1\UploadFilesServer.Tests.csproj.CopyComplete
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\obj\Debug\netcoreapp2.1\UploadFilesServer.Tests.dll
+E:\workingWeb_test\upload_files\UploadFilesServer\UploadFilesServer.Tests\obj\Debug\netcoreapp2.1\UploadFilesServer.Tests.pdb
